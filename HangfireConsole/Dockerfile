@@ -1,3 +1,3 @@
 FROM microsoft/windowsservercore
-ADD HangfireConsole/bin/Release/ /
+ADD / /
 ENTRYPOINT HangfireConsole.exe
